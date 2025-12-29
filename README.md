@@ -14,3 +14,27 @@ Remember, it's self-paced so feel free to take a break! ☕️
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
+\
+**OctoFit Tracker — Local Setup**
+
+- **Branch created:** `build-octofit-app` — created and pushed to origin.
+- **Project folders:** created `octofit-tracker/backend` and `octofit-tracker/frontend`.
+- **Requirements file:** [octofit-tracker/backend/requirements.txt](octofit-tracker/backend/requirements.txt) added with required packages.
+- **Virtualenv:** created at `octofit-tracker/backend/venv`.
+- **Install command:**
+
+```bash
+/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/bin/python -m pip install --upgrade pip setuptools wheel
+/workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/bin/pip install -r /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/requirements.txt
+```
+
+- **Activate venv (POSIX):**
+
+```bash
+source /workspaces/skills-build-applications-w-copilot-agent-mode/octofit-tracker/backend/venv/bin/activate
+```
+
+- **Notes:**
+	- Follow the OctoFit Tracker structure under the repo root: `octofit-tracker/`.
+	- Use Django ORM for DB work; check the `.github/instructions` for project guidelines.
+
